@@ -1,4 +1,4 @@
-// Every solution that comes to my mind => O(n)
+// Every solution that comes to my mind => O(Long n)
 function isPowerOfTwo(number) {
   if (number < 1) return false;
 
