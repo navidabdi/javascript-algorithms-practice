@@ -7,7 +7,7 @@
 // First Solution that comes to my mind:
 function fact(number) {
   let factorial = 1;
-  for (let i = 1; i < number + 1; i++) {
+  for (let i = 2; i <= number; i++) {
     factorial = factorial * i;
   }
   return factorial;
