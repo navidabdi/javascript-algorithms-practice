@@ -1,0 +1,21 @@
+/*
+
+Add two logs with base X, with the value of A and B. Example log A + log B where the base is X.
+
+*/
+
+// My Solution
+function logs(x, a, b) {
+  return Math.log(a) / Math.log(x) + Math.log(b) / Math.log(x);
+}
+
+// Test the Solution
+console.log(logs(10, 2, 3)); // => 0.7781512503836435
+console.log(logs(5, 2, 3)); // => 1.1132827525593785
+
+// One of other Solutions
+function logs(x, a, b) {
+  return Math.log(a * b) / Math.log(x);
+}
+// One of other Solutions
+const logs = (x, a, b) => (Math.log(a) + Math.log(b)) / Math.log(x);
