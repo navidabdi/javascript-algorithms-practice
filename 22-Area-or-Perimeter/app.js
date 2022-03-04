@@ -21,8 +21,8 @@ console.log(areaOrPerimeter(4, 4)); //
 console.log(areaOrPerimeter(6, 10)); //
 
 // One of other Solutions
-const areaOrPerimeter = function (l, w) {
+const areaOrPerimeter_S2 = function (l, w) {
   return l == w ? l * w : 2 * (l + w);
 };
 // One of other Solutions
-const areaOrPerimeter = (l, w) => (l - w ? (l + w) * 2 : l ** 2);
+const areaOrPerimeter_S3 = (l, w) => (l - w ? (l + w) * 2 : l ** 2);
