@@ -25,11 +25,11 @@ console.log(oddCount(15)); //  7
 console.log(oddCount(15023)); //  7511
 
 // One of other Solutions
-function oddCount(n) {
+function oddCount_S2(n) {
   return Math.trunc(n / 2);
 }
 // One of other Solutions
-function oddCount(n) {
+function oddCount_S3(n) {
   let odd = Math.round((n - 1) / 2);
   return odd;
 }
